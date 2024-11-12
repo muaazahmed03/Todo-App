@@ -1,0 +1,60 @@
+body {
+  background-color: #edf2fb;
+}
+.todo-app{
+  text-align: center;
+  color: #003f88;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.list {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #003f88;
+  border-left: 6px solid #003f88;
+  border-radius: 0 8px 8px 0;
+  font-size: 1.2em;
+  background-color: #fff;
+  color: #003f88;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.addbtn {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: #003f88;
+  color: white;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+}
+.inListBtn {
+  padding: 8px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: #003f88;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+}
+.inp {
+  padding: 10px;
+  font-size: 1em;
+  border: none;
+  border-bottom: 1.5px solid #003f88;
+  width: 60%;
+}
+.inpParent {
+  width: 95%;
+  max-width: 500px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
